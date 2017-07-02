@@ -1,0 +1,24 @@
+config:
+  box: bitwisdom/phpdev64
+  virtualbox: 
+    memory: 512
+    cpus: 1
+  network: 
+    type: shared_folders
+    # type: private_network
+    # ip: 172.28.128.150
+    # share_type: nfs
+  sites:
+    dir: /home/vagrant/sites
+    host_dir: ../sites/
+    single_app: false
+    app_name: PHP Application
+  apache: 
+    port: 8888
+  mysql:
+    password: root
+  mailhog:
+    port: 8025
+  git:
+    email: example@example.com
+    name: Example
