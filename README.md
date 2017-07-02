@@ -1,4 +1,4 @@
-# BitWisdom PHP Development Environment 
+# Modern Drupal Development Environment 
 
 ## Installing
 1. [Install VirtualBox](https://www.virtualbox.org/). 
